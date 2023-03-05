@@ -1,12 +1,13 @@
 
 .up-next-movie-bar {
-  border: 2px solid yellow;
+  border: 3px solid yellow;
   border-radius: 5px;
   padding: 10px;
-  width: 200px;
-  position: fixed;
-  right: 0;
-  top: 50%;
+  width: 30rem;
+  height: 38rem;
+  position: absolute;
+  right: 5rem;
+  top: 60%;
   transform: translateY(-50%);
 
   
@@ -14,13 +15,14 @@
 }
 .up-next-movie-bar h3 {
   color: yellow;
+  font-size: bold;
 }
 
 
 .up-next-movie-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: auto;
 }
 
 .up-next-movie-list li {
@@ -30,12 +32,15 @@
 }
 
 .up-next-movie-list li img {
-  width: 50px;
+  width: 110px;
   margin-right: 10px;
+  margin-left: 1rem;
 }
 
 .up-next-movie-list li h4 {
   margin: 0;
+  color: white;
+  text-align: right;
 }
 .up-next-movie-list li p {
   margin: 0;
