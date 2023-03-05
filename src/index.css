@@ -32,6 +32,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
+  background-color: #242424;
 }
 
 h1 {
@@ -85,7 +86,7 @@ nav {
 }
 
 nav h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 1.2rem;
@@ -101,6 +102,8 @@ nav h1 span {
 nav ul {
   display: flex;
   list-style: none;
+  align-items: center;
+  margin-bottom: 0;
 }
 
 .nav-items {
@@ -133,3 +136,27 @@ nav ul li a:hover {
   color: #ffff00;
 }
 
+.car-slider{
+  margin-top: 4rem;
+  margin-left: 6rem;
+  width: 65rem;
+}
+
+.feature-movies{
+  color: #eeff00;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+font-size: 2.8rem;
+margin-left: 1rem;
+margin-bottom: 3rem;
+}
+
+.car-title{
+  font-size: 2rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.car-para{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
