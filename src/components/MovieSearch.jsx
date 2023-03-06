@@ -22,10 +22,10 @@ const MovieSearch = () => {
 
   return (
     <div className="movie-search">
-      <h1>Movie Search</h1>
+      <h1 className='movieh1'>Movie Search</h1>
       <div className="search-container">
         <input type="text" value={searchTerm} onChange={e => setSearchTerm(e.target.value)} />
-        <button onClick={handleSearch}>Search</button>
+        <button onClick={handleSearch} className="SearchBarButton">Search</button>
       </div>
       {movieData && (
         <div className="movie-container">

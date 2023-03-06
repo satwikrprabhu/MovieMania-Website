@@ -29,7 +29,7 @@
     width: 70%;
   }
   
-  button {
+  .SearchBarButton {
     /* Add "box-sizing: border-box;" property */
     /* Add "float: left;" property */
     /* Update "width" property to a percentage that fits your design */

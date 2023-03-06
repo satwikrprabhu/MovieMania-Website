@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {motion} from 'framer-motion'
 
 import Carousel from 'react-bootstrap/Carousel';
 
@@ -6,7 +7,16 @@ import Carousel from 'react-bootstrap/Carousel';
   function CarouselFadeExample() {
     return (
       <div className='car-slider'>
-        <h1 className='feature-movies'>Featured Movies</h1>
+       <motion.h1 className='feature-movies' initial={{y:-250}}
+      animate={{y:-10}}
+      transition={{delay:0.5}}>Featured Movies</motion.h1>
+        <motion.div initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}> 
       <Carousel variant="dark">
         <Carousel.Item>
           <img
@@ -56,6 +66,7 @@ import Carousel from 'react-bootstrap/Carousel';
         </Carousel.Item>
 
       </Carousel>
+      </motion.div>
       </div>
     );
   }

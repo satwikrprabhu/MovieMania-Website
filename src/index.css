@@ -41,9 +41,10 @@ body
   background: yellow;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.mmlogo {
+  font-size: 3.2rem;
+  line-height: 1;
+  
 }
 
 button {
@@ -87,7 +88,7 @@ nav {
   padding: 0 2rem;
   background-color: #222;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.005rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -95,7 +96,7 @@ nav h1 {
   font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 1.2rem;
+  margin: 1rem;
 }
 
 nav h1 span {
@@ -121,6 +122,8 @@ nav ul li a {
   text-decoration: none;
   padding: 0.5rem;
   transition: all 0.3s ease;
+  background-color: #333;
+  border-radius: 5px;
 }
 
 nav ul li a:hover {
