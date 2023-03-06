@@ -1,0 +1,97 @@
+.movie-search {
+    /* Remove the "display: flex;" property */
+    /* Add "float: left;" property */
+    float: left;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .search-container {
+    /* Remove the "display: flex;" property */
+    /* Add "float: left;" property */
+    float: left;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    /* Add "box-sizing: border-box;" property */
+    /* Add "float: left;" property */
+    /* Update "width" property to a percentage that fits your design */
+    box-sizing: border-box;
+    float: left;
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 70%;
+  }
+  
+  button {
+    /* Add "box-sizing: border-box;" property */
+    /* Add "float: left;" property */
+    /* Update "width" property to a percentage that fits your design */
+    box-sizing: border-box;
+    float: left;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+  }
+  
+  
+  
+  .movie-info {
+    color: white;
+    margin-top: 20px;
+    /* Change the "text-align" property from "center" to "left" */
+    text-align: left;
+  }
+  .movie-details {
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 10px;
+    /* Add the following rules to create a box */
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+  
+  .movie-container {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    /* Add the following rules to move the container to the left side of the screen */
+    /* and set a width to limit the container's size */
+    float: left;
+    width: 50%;
+    padding-right: 20px;
+  }
+  .movie-container p{
+    color: yellow;
+  }
+  .movie-search button{
+    background-color: yellow;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+  
+  
+  
+    

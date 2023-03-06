@@ -1,4 +1,5 @@
 import React from 'react'
+
 export default function Navbar(){
     return(
         <nav>
@@ -11,7 +12,8 @@ export default function Navbar(){
                     <li className="nav-items"><a href="">Team</a></li>
                 </ul>
             </div>
-                <button className='navSearch'>Search</button>
+            
+                
         </nav>
     )
 }
