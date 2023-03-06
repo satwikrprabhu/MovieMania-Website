@@ -23,7 +23,7 @@ function Content() {
               Keaton. It tells the story of the Corleones, a fictional
               Italian-American crime family in New York City.
             </p>
-            <a href="https://en.wikipedia.org/wiki/The_Godfather">Read More</a>
+            <a href="#">Read More</a>
           </article>
         </section>
         <section>
@@ -45,7 +45,7 @@ function Content() {
               Star Wars trilogy, the first film to be produced by Lucasfilm, and
               the fourth episode of the "Skywalker saga".
             </p>
-            <a href="https://en.wikipedia.org/wiki/Star_Wars">Read More</a>
+            <a href="#">Read More</a>
           </article>
 
           <h2>The Shawshank Redemption</h2>
@@ -67,7 +67,7 @@ function Content() {
               fellow inmate Ellis Boyd "Red" Redding (Morgan Freeman) and finds
               a way to live out his life with dignity and purpose.
             </p>
-            <a href="https://en.wikipedia.org/wiki/The_Shawshank_Redemption">Read More</a>
+            <a href="#">Read More</a>
           </article>
         </section>
         <section>
@@ -93,7 +93,7 @@ function Content() {
               performances in cinema history, and the film as a whole has
               received critical acclaim and numerous awards.
             </p>
-            <a href="https://en.wikipedia.org/wiki/The_Dark_Knight">Read More</a>
+            <a href="#">Read More</a>
           </article>
         </section>
          <h2>Inception</h2>
@@ -120,7 +120,7 @@ function Content() {
             four Academy Awards, including Best Cinematography, Best Sound
             Editing, Best Sound Mixing, and Best Visual Effects.
           </p>
-          <a href="https://en.wikipedia.org/wiki/Inception">Read More</a>
+          <a href="#">Read More</a>
         </article>
         <h2>The Matrix</h2>
         <img src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="the picture of the movie" height={200} width={300} />
@@ -147,7 +147,7 @@ function Content() {
             become a cultural touchstone and a seminal work in the science
             fiction genre. 
           </p>
-          <a href="https://en.wikipedia.org/wiki/The_Matrix">Read More</a>
+          <a href="#">Read More</a>
         </article>
 
       </main>
