@@ -1,0 +1,24 @@
+
+.MovieInput{
+width: 30rem;
+color: white;
+}
+
+.MovieHeadings{
+    color:yellow
+}
+
+.MoviePara{
+    color: white;
+}
+.MovieHead{
+    color: yellow;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.MovieDiv{
+    margin: 3rem 0;
+}

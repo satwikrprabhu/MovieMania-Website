@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar'
 
+import Movie from './components/Movie'
 import CarouselFadeExample from './components/CarouselFadeExample'
 import MovieSearch from './components/MovieSearch'
 import Upnext from './components/Upnext'
@@ -13,10 +14,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <MovieSearch/>
+
       <CarouselFadeExample />
       <Upnext/>
       <Content/>
+      <Movie />
       <Footer/>
     </div>
   )

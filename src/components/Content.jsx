@@ -1,18 +1,21 @@
 import React from "react";
+import {motion} from 'framer-motion'
 import "./Content.css";
 function Content() {
   return (
     <div>
       <main>
         <section>
-          <h2>The Godfather</h2>
+          <h2 className="MovieTitl">The Godfather</h2>
           <img
             src="https://upload.wikimedia.org/wikipedia/en/a/af/The_Godfather%2C_The_Game.jpg"
             alt="The Godfather movie poser"
             width={200}
             height={200}
           />
-          <article>
+          <motion.article  initial={{x:-1400}}
+    animate={{x:0,y:0}}
+    transition={{delay:0.5}}>
             <h3>Summary</h3>
             <p>
               The Godfather is a 1972 American crime film directed by Francis
@@ -24,17 +27,19 @@ function Content() {
               Italian-American crime family in New York City.
             </p>
             <a href="https://en.wikipedia.org/wiki/The_Godfather" className="readanchor">Read More</a>
-          </article>
+          </motion.article>
         </section>
         <section>
-          <h2>Star Wars: A New Hope</h2>
+          <h2 className="MovieTitl">Star Wars: A New Hope</h2>
           <img
             src="https://assets-prd.ignimgs.com/2022/05/25/starwarssaga-blogroll-1653501853399.jpg"
             alt="Star Wars: A New Hope movie poster"
             height={200}
             width={300}
           />
-          <article>
+          <motion.article initial={{x:-1400}}
+    animate={{x:0,y:0}}
+    transition={{delay:0.5}}>
             <h3>Summary</h3>
             <p>
               Star Wars (later retitled Star Wars: Episode IV – A New Hope) is a
@@ -46,16 +51,18 @@ function Content() {
               the fourth episode of the "Skywalker saga".
             </p>
             <a href="https://en.wikipedia.org/wiki/Star_Wars" className="readanchor">Read More</a>
-          </article>
+          </motion.article>
 
-          <h2>The Shawshank Redemption</h2>
+          <h2 className="MovieTitl">The Shawshank Redemption</h2>
           <img
             src="https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg"
             alt="The Shawshank Redemption movie poster"
             height={200}
             width={300}
           />
-          <article>
+          <motion.article initial={{x:-1400}}
+    animate={{x:0,y:0}}
+    transition={{delay:0.5}}>
             <h3>Summary</h3>
             <p>
               The Shawshank Redemption is a 1994 American drama film written and
@@ -68,17 +75,19 @@ function Content() {
               a way to live out his life with dignity and purpose.
             </p>
             <a href="https://en.wikipedia.org/wiki/The_Shawshank_Redemption" className="readanchor">Read More</a>
-          </article>
+          </motion.article>
         </section>
         <section>
-          <h2>The Dark Knight</h2>
+          <h2 className="MovieTitl">The Dark Knight</h2>
           <img
             src="https://resizing.flixster.com/WAHXGKleT3QvhqHUlFGIRgcQAjU=/206x305/v2/https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg"
             alt="The Dark Knight movie poster"
             height={200}
             width={300}
           />
-          <article>
+          <motion.article initial={{x:-1400}}
+    animate={{x:0,y:0}}
+    transition={{delay:0.5}}>
             <h3>Summary</h3>
             <p>
               "The Dark Knight" is a 2008 superhero film directed by Christopher
@@ -94,11 +103,13 @@ function Content() {
               received critical acclaim and numerous awards.
             </p>
             <a href="https://en.wikipedia.org/wiki/The_Dark_Knight" className="readanchor">Read More</a>
-          </article>
+          </motion.article>
         </section>
-         <h2>Inception</h2>
+         <h2 className="MovieTitl">Inception</h2>
         <img src="https://flxt.tmsimg.com/assets/p7825626_p_v8_af.jpg" alt="inception movie image" height={200} width={300} />
-        <article>
+        <motion.article initial={{x:-1400}}
+    animate={{x:0,y:0}}
+    transition={{delay:0.5}}>
           <h3>Summary</h3>
           <p>
             Inception is a 2010 science fiction heist thriller film directed by
@@ -121,10 +132,12 @@ function Content() {
             Editing, Best Sound Mixing, and Best Visual Effects.
           </p>
           <a href="https://en.wikipedia.org/wiki/Inception" className="readanchor">Read More</a>
-        </article>
-        <h2>The Matrix</h2>
+        </motion.article>
+        <h2 className="MovieTitl">The Matrix</h2>
         <img src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="the picture of the movie" height={200} width={300} />
-        <article>
+        <motion.article initial={{x:-1400}}
+    animate={{x:0,y:0}}
+    transition={{delay:0.5}}>
           <h3>Summary</h3>
           <p>
             The Matrix is a 1999 science fiction action film directed by the
@@ -148,7 +161,7 @@ function Content() {
             fiction genre. 
           </p>
           <a href="https://en.wikipedia.org/wiki/The_Matrix" className="readanchor">Read More</a>
-        </article>
+        </motion.article>
 
       </main>
     </div>

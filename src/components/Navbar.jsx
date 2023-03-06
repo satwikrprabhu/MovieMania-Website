@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-
+import Movie from './Movie'
 export default function Navbar(){
     return(
         <nav>
@@ -29,7 +29,7 @@ export default function Navbar(){
                     ><a href="">Team</a></motion.li>
                 </ul>
             </div>
-            <motion.button className='navSearch'
+            <motion.button onClick={<Movie/>} className='navSearch'
                  whileHover={{ scale: 1.1 }}
                  whileTap={{ scale: 0.9 }}
                  transition={{ type: "spring", stiffness: 400, damping: 17 }}
