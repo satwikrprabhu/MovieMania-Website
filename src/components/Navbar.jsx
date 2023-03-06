@@ -1,38 +1,19 @@
 import React from 'react'
-import {motion} from 'framer-motion'
+
 export default function Navbar(){
     return(
         <nav>
             <h1><span>M</span>ovie<span>M</span>ania</h1>
             <div className='uldiv'>
                 <ul>
-                    <motion.li className="nav-items"
-                     whileHover={{ scale: 1.1 }}
-                     whileTap={{ scale: 0.9 }}
-                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    ><a href="">Home</a></motion.li>
-                    <motion.li className="nav-items"
-                     whileHover={{ scale: 1.1 }}
-                     whileTap={{ scale: 0.9 }}
-                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    ><a href="">About</a></motion.li>
-                    <motion.li className="nav-items"
-                     whileHover={{ scale: 1.1 }}
-                     whileTap={{ scale: 0.9 }}
-                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    ><a href="">Contact</a></motion.li>
-                    <motion.li className="nav-items"
-                     whileHover={{ scale: 1.1 }}
-                     whileTap={{ scale: 0.9 }}
-                     transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                    ><a href="">Team</a></motion.li>
+                    <li className="nav-items"><a href="">Home</a></li>
+                    <li className="nav-items"><a href="">About</a></li>
+                    <li className="nav-items"><a href="">Contact</a></li>
+                    <li className="nav-items"><a href="">Team</a></li>
                 </ul>
             </div>
-                <motion.button className='navSearch'
-                 whileHover={{ scale: 1.1 }}
-                 whileTap={{ scale: 0.9 }}
-                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
-                 >Search</motion.button>
+            
+                
         </nav>
     )
 }
