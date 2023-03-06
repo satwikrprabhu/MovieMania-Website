@@ -9,7 +9,6 @@ const Upnext = () => {
       <h3 >Up Next</h3>
       <ul className="up-next-movie-list">
         {movies.map(movie => (
-          
           <li key={movie.id}>
             <img src={movie.posterUrl} alt={movie.title} />
             <div className="movie-info">

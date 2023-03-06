@@ -137,9 +137,9 @@ nav ul li a:hover {
 }
 
 .car-slider{
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-left: 6rem;
-  width: 55rem;
+  width: 65rem;
 }
 
 .feature-movies{
@@ -148,11 +148,11 @@ nav ul li a:hover {
   font-family: 'Poppins', sans-serif;
 font-size: 2.8rem;
 margin-left: 1rem;
-margin-bottom: 1.5rem;
+margin-bottom: 3rem;
 }
 
 .car-title{
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
