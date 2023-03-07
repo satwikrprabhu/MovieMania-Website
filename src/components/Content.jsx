@@ -3,11 +3,11 @@ import {motion} from 'framer-motion'
 import "./Content.css";
 function Content() {
   return (
-    <div>
+    <div className="ContentDiv">
       <main>
         <section>
           <h2 className="MovieTitl">The Godfather</h2>
-          <img
+          <img 
             src="https://upload.wikimedia.org/wikipedia/en/a/af/The_Godfather%2C_The_Game.jpg"
             alt="The Godfather movie poser"
             width={200}
@@ -79,7 +79,7 @@ function Content() {
         </section>
         <section>
           <h2 className="MovieTitl">The Dark Knight</h2>
-          <img
+          <img className="ContentPoster"
             src="https://resizing.flixster.com/WAHXGKleT3QvhqHUlFGIRgcQAjU=/206x305/v2/https://flxt.tmsimg.com/assets/p173378_p_v8_au.jpg"
             alt="The Dark Knight movie poster"
             height={200}
@@ -106,7 +106,7 @@ function Content() {
           </motion.article>
         </section>
          <h2 className="MovieTitl">Inception</h2>
-        <img src="https://flxt.tmsimg.com/assets/p7825626_p_v8_af.jpg" alt="inception movie image" height={200} width={300} />
+        <img className="ContentPoster" src="https://flxt.tmsimg.com/assets/p7825626_p_v8_af.jpg" alt="inception movie image" height={200} width={300} />
         <motion.article initial={{x:-1400}}
     animate={{x:0,y:0}}
     transition={{delay:0.5}}>
@@ -134,7 +134,7 @@ function Content() {
           <a href="https://en.wikipedia.org/wiki/Inception" className="readanchor">Read More</a>
         </motion.article>
         <h2 className="MovieTitl">The Matrix</h2>
-        <img src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="the picture of the movie" height={200} width={300} />
+        <img className="ContentPoster" src="https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg" alt="the picture of the movie" height={200} width={300} />
         <motion.article initial={{x:-1400}}
     animate={{x:0,y:0}}
     transition={{delay:0.5}}>

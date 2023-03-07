@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import {motion} from 'framer-motion'
 import './Movie.css'
+import Navbar from './Navbar';
 const OMDB_API_KEY = 'dfce653d';
 
 function Movie() {
@@ -44,8 +46,11 @@ function Movie() {
 
   return (
     <div>
-      <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} autoComplete="off" className='MovieInput'/>
-      {suggestions.length > 0 && (
+      <Navbar/>
+      <div className='MovieSearchDiv'>
+      <h1 className='MovieSearchTitle'>Search Movies</h1>
+      <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} autoComplete="off" className='MovieInput' placeholder=' Enter movie name'/>
+      {/* {suggestions.length > 0 && (
         <ul>
           {suggestions.map((suggestion) => (
             <li key={suggestion} onClick={() => setSearchTerm(suggestion)}>
@@ -53,8 +58,12 @@ function Movie() {
             </li>
           ))}
         </ul>
-      )}
-      <button onClick={handleSearch}>Search</button>
+      )} */}
+      <motion.button onClick={handleSearch} className='MovieButton'
+       whileHover={{ scale: 1.1 }}
+       whileTap={{ scale: 0.9 }}
+       transition={{ type: "spring", stiffness: 400, damping: 17 }}
+       >Search</motion.button>
       {error && <p>{error}</p>}
       {movie && (
         <div className='MovieDiv'>
@@ -70,6 +79,7 @@ function Movie() {
           <p className='MoviePara'><span className='MovieHeadings'>Country:</span> {movie.Country}</p>
         </div>
       )}
+      </div>
     </div>
   );
 }

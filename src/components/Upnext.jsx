@@ -9,7 +9,7 @@ const Upnext = () => {
     <motion.div className="up-next-movie-bar" initial={{x:500,y:-290}}
     animate={{x:0,y:-290}}
     transition={{delay:0.5}}>
-      <h3 >Up Next</h3>
+      <h3 className='upnextext'>Up Next</h3>
       <ul className="up-next-movie-list">
         {movies.map(movie => (
           
